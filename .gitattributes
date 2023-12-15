@@ -34,3 +34,7 @@
 *.zip             binary
 *.ttf             binary
 *.otf             binary
+
+*.css linguist-detectable=false
+*.js linguist-detectable=true
+*.java linguist-detectable=false
