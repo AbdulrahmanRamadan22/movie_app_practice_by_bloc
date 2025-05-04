@@ -26,7 +26,7 @@ class AppRouter {
         return MaterialPageRoute(
             builder: (_) => BlocProvider(
                   create: (context) => popularCubit,
-                  child: const PopularsScreen(),
+                  child: const PopularsScreen()
                 ));
       case popularsDetailsScreen:
 

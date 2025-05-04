@@ -19,7 +19,8 @@ class PopularItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
       ),
       child: InkWell(
-        onTap: () => Navigator.pushNamed(context, popularsDetailsScreen , arguments: popular),
+        onTap: () => Navigator.pushNamed(context, popularsDetailsScreen,
+            arguments: popular),
         child: GridTile(
           footer: Container(
             width: double.infinity,
